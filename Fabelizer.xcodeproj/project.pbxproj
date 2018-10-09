@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A8D83ED8282B9C94642890 /* Pods_FabelizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FAFFB1BC7F1324A1D74CA0 /* Pods_FabelizerUITests.framework */; };
 		1100758A216224B700A10A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11007589216224B700A10A44 /* AppDelegate.swift */; };
-		1100758C216224B700A10A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100758B216224B700A10A44 /* ViewController.swift */; };
 		1100758F216224B700A10A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1100758D216224B700A10A44 /* Main.storyboard */; };
 		11007591216224BA00A10A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11007590216224BA00A10A44 /* Assets.xcassets */; };
 		11007594216224BA00A10A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11007592216224BA00A10A44 /* LaunchScreen.storyboard */; };
 		1100759F216224BA00A10A44 /* FabelizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100759E216224BA00A10A44 /* FabelizerTests.swift */; };
 		110075AA216224BA00A10A44 /* FabelizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110075A9216224BA00A10A44 /* FabelizerUITests.swift */; };
+		11A27F3C216B341B007EB73E /* RearTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A27F3B216B341B007EB73E /* RearTableViewCell.swift */; };
+		11A27F41216B5A1F007EB73E /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A27F40216B5A1F007EB73E /* PageView.swift */; };
+		11A27F43216B5A43007EB73E /* PageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A27F42216B5A43007EB73E /* PageView.xib */; };
+		11A9537621672D1C00AA0824 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9537521672D1C00AA0824 /* RegisterViewController.swift */; };
+		11A95378216784B100AA0824 /* YouTubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A95377216784B100AA0824 /* YouTubeViewController.swift */; };
+		11F08CA52165C6F900E1974E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F08CA42165C6F900E1974E /* LoginViewController.swift */; };
+		11F08CAA2165F87000E1974E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F08CA92165F87000E1974E /* SWRevealViewController.m */; };
+		11F08CAC21660D4C00E1974E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F08CAB21660D4C00E1974E /* HomeViewController.swift */; };
+		11F08CAE2166203700E1974E /* RearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F08CAD2166203700E1974E /* RearViewController.swift */; };
+		11F08CB0216634CB00E1974E /* Colour+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F08CAF216634CB00E1974E /* Colour+Gradient.swift */; };
+		11F08CB22166475000E1974E /* Menu1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F08CB12166475000E1974E /* Menu1ViewController.swift */; };
+		601536CF660C300F4FBE295E /* Pods_Fabelizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FE1CB8E6C4E3ABB40D1AF5 /* Pods_Fabelizer.framework */; };
+		AA777C8D4F2E57041A457651 /* Pods_FabelizerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84760B9BA4110EF8F9A7DE65 /* Pods_FabelizerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0F9E563587BEC321AC2C09 /* Pods-Fabelizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabelizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fabelizer/Pods-Fabelizer.release.xcconfig"; sourceTree = "<group>"; };
 		11007586216224B700A10A44 /* Fabelizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fabelizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11007589216224B700A10A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1100758B216224B700A10A44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1100758E216224B700A10A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11007590216224BA00A10A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11007593216224BA00A10A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,27 @@
 		110075A5216224BA00A10A44 /* FabelizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabelizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		110075A9216224BA00A10A44 /* FabelizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabelizerUITests.swift; sourceTree = "<group>"; };
 		110075AB216224BA00A10A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A27F3B216B341B007EB73E /* RearTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RearTableViewCell.swift; sourceTree = "<group>"; };
+		11A27F40216B5A1F007EB73E /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		11A27F42216B5A43007EB73E /* PageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageView.xib; sourceTree = "<group>"; };
+		11A9537521672D1C00AA0824 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		11A95377216784B100AA0824 /* YouTubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeViewController.swift; sourceTree = "<group>"; };
+		11F08CA42165C6F900E1974E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		11F08CA72165F86F00E1974E /* Fabelizer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fabelizer-Bridging-Header.h"; sourceTree = "<group>"; };
+		11F08CA82165F87000E1974E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		11F08CA92165F87000E1974E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		11F08CAB21660D4C00E1974E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		11F08CAD2166203700E1974E /* RearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RearViewController.swift; sourceTree = "<group>"; };
+		11F08CAF216634CB00E1974E /* Colour+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colour+Gradient.swift"; sourceTree = "<group>"; };
+		11F08CB12166475000E1974E /* Menu1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu1ViewController.swift; sourceTree = "<group>"; };
+		3D9222555A60FFE59CADF149 /* Pods-FabelizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FabelizerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FabelizerUITests/Pods-FabelizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EAE1ED5FDE4B9BA4BC85723 /* Pods-FabelizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FabelizerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FabelizerUITests/Pods-FabelizerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C33CD9995151A9B448D0DCD /* Pods-FabelizerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FabelizerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FabelizerTests/Pods-FabelizerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1B25E2DFC606370D0D4769 /* Pods-FabelizerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FabelizerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FabelizerTests/Pods-FabelizerTests.release.xcconfig"; sourceTree = "<group>"; };
+		81FE1CB8E6C4E3ABB40D1AF5 /* Pods_Fabelizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fabelizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84760B9BA4110EF8F9A7DE65 /* Pods_FabelizerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FabelizerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2620C700628975DAA6B17B /* Pods-Fabelizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabelizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fabelizer/Pods-Fabelizer.debug.xcconfig"; sourceTree = "<group>"; };
+		F8FAFFB1BC7F1324A1D74CA0 /* Pods_FabelizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FabelizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601536CF660C300F4FBE295E /* Pods_Fabelizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA777C8D4F2E57041A457651 /* Pods_FabelizerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A8D83ED8282B9C94642890 /* Pods_FabelizerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +118,8 @@
 				1100759D216224BA00A10A44 /* FabelizerTests */,
 				110075A8216224BA00A10A44 /* FabelizerUITests */,
 				11007587216224B700A10A44 /* Products */,
+				DB899C24F6EB03B1A18E107C /* Pods */,
+				501440D6ADA0E194A59C88D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +136,18 @@
 		11007588216224B700A10A44 /* Fabelizer */ = {
 			isa = PBXGroup;
 			children = (
+				11A27F3E216B59DB007EB73E /* Paggingview */,
+				11F08CA62165F83000E1974E /* SWRevealViewController */,
 				11007589216224B700A10A44 /* AppDelegate.swift */,
-				1100758B216224B700A10A44 /* ViewController.swift */,
+				11F08CA42165C6F900E1974E /* LoginViewController.swift */,
+				11A9537521672D1C00AA0824 /* RegisterViewController.swift */,
+				11F08CAB21660D4C00E1974E /* HomeViewController.swift */,
+				11F08CAD2166203700E1974E /* RearViewController.swift */,
+				11A27F3B216B341B007EB73E /* RearTableViewCell.swift */,
+				11F08CB12166475000E1974E /* Menu1ViewController.swift */,
+				11A95377216784B100AA0824 /* YouTubeViewController.swift */,
 				1100758D216224B700A10A44 /* Main.storyboard */,
+				11F08CAF216634CB00E1974E /* Colour+Gradient.swift */,
 				11007590216224BA00A10A44 /* Assets.xcassets */,
 				11007592216224BA00A10A44 /* LaunchScreen.storyboard */,
 				11007595216224BA00A10A44 /* Info.plist */,
@@ -125,6 +173,48 @@
 			path = FabelizerUITests;
 			sourceTree = "<group>";
 		};
+		11A27F3E216B59DB007EB73E /* Paggingview */ = {
+			isa = PBXGroup;
+			children = (
+				11A27F40216B5A1F007EB73E /* PageView.swift */,
+				11A27F42216B5A43007EB73E /* PageView.xib */,
+			);
+			path = Paggingview;
+			sourceTree = "<group>";
+		};
+		11F08CA62165F83000E1974E /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11F08CA82165F87000E1974E /* SWRevealViewController.h */,
+				11F08CA92165F87000E1974E /* SWRevealViewController.m */,
+				11F08CA72165F86F00E1974E /* Fabelizer-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		501440D6ADA0E194A59C88D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81FE1CB8E6C4E3ABB40D1AF5 /* Pods_Fabelizer.framework */,
+				84760B9BA4110EF8F9A7DE65 /* Pods_FabelizerTests.framework */,
+				F8FAFFB1BC7F1324A1D74CA0 /* Pods_FabelizerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB899C24F6EB03B1A18E107C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF2620C700628975DAA6B17B /* Pods-Fabelizer.debug.xcconfig */,
+				0D0F9E563587BEC321AC2C09 /* Pods-Fabelizer.release.xcconfig */,
+				7C33CD9995151A9B448D0DCD /* Pods-FabelizerTests.debug.xcconfig */,
+				7D1B25E2DFC606370D0D4769 /* Pods-FabelizerTests.release.xcconfig */,
+				3D9222555A60FFE59CADF149 /* Pods-FabelizerUITests.debug.xcconfig */,
+				6EAE1ED5FDE4B9BA4BC85723 /* Pods-FabelizerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110075AE216224BB00A10A44 /* Build configuration list for PBXNativeTarget "Fabelizer" */;
 			buildPhases = (
+				BC294287F7BD1C2A35A98A28 /* [CP] Check Pods Manifest.lock */,
 				11007582216224B700A10A44 /* Sources */,
 				11007583216224B700A10A44 /* Frameworks */,
 				11007584216224B700A10A44 /* Resources */,
+				6C7B6D7A88CE314B4CB424C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110075B1216224BB00A10A44 /* Build configuration list for PBXNativeTarget "FabelizerTests" */;
 			buildPhases = (
+				7087FFBDD61E1FC81B39FF51 /* [CP] Check Pods Manifest.lock */,
 				11007596216224BA00A10A44 /* Sources */,
 				11007597216224BA00A10A44 /* Frameworks */,
 				11007598216224BA00A10A44 /* Resources */,
@@ -167,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110075B4216224BB00A10A44 /* Build configuration list for PBXNativeTarget "FabelizerUITests" */;
 			buildPhases = (
+				C84837510B57397CF9FD079A /* [CP] Check Pods Manifest.lock */,
 				110075A1216224BA00A10A44 /* Sources */,
 				110075A2216224BA00A10A44 /* Frameworks */,
 				110075A3216224BA00A10A44 /* Resources */,
@@ -193,6 +287,7 @@
 				TargetAttributes = {
 					11007585216224B700A10A44 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					11007599216224BA00A10A44 = {
 						CreatedOnToolsVersion = 10.0;
@@ -230,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11007594216224BA00A10A44 /* LaunchScreen.storyboard in Resources */,
+				11A27F43216B5A43007EB73E /* PageView.xib in Resources */,
 				11007591216224BA00A10A44 /* Assets.xcassets in Resources */,
 				1100758F216224B700A10A44 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +347,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C7B6D7A88CE314B4CB424C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fabelizer/Pods-Fabelizer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACFloatingTextfield-Swift/ACFloatingTextfield_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/YouTubePlayer-Swift/YouTubePlayer_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACFloatingTextfield_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouTubePlayer_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fabelizer/Pods-Fabelizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7087FFBDD61E1FC81B39FF51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FabelizerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC294287F7BD1C2A35A98A28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fabelizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84837510B57397CF9FD079A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FabelizerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11007582216224B700A10A44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1100758C216224B700A10A44 /* ViewController.swift in Sources */,
+				11F08CA52165C6F900E1974E /* LoginViewController.swift in Sources */,
+				11F08CB22166475000E1974E /* Menu1ViewController.swift in Sources */,
 				1100758A216224B700A10A44 /* AppDelegate.swift in Sources */,
+				11A95378216784B100AA0824 /* YouTubeViewController.swift in Sources */,
+				11A9537621672D1C00AA0824 /* RegisterViewController.swift in Sources */,
+				11F08CAA2165F87000E1974E /* SWRevealViewController.m in Sources */,
+				11F08CAC21660D4C00E1974E /* HomeViewController.swift in Sources */,
+				11F08CAE2166203700E1974E /* RearViewController.swift in Sources */,
+				11A27F41216B5A1F007EB73E /* PageView.swift in Sources */,
+				11F08CB0216634CB00E1974E /* Colour+Gradient.swift in Sources */,
+				11A27F3C216B341B007EB73E /* RearTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,17 +628,22 @@
 		};
 		110075AF216224BB00A10A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2620C700628975DAA6B17B /* Pods-Fabelizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 82BELQ6AHT;
 				INFOPLIST_FILE = Fabelizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Infinitumus.Fabelizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fabelizer/SWRevealViewController/Fabelizer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,17 +651,21 @@
 		};
 		110075B0216224BB00A10A44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0F9E563587BEC321AC2C09 /* Pods-Fabelizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 82BELQ6AHT;
 				INFOPLIST_FILE = Fabelizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Infinitumus.Fabelizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fabelizer/SWRevealViewController/Fabelizer-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +673,7 @@
 		};
 		110075B2216224BB00A10A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C33CD9995151A9B448D0DCD /* Pods-FabelizerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +695,7 @@
 		};
 		110075B3216224BB00A10A44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1B25E2DFC606370D0D4769 /* Pods-FabelizerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +717,7 @@
 		};
 		110075B5216224BB00A10A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9222555A60FFE59CADF149 /* Pods-FabelizerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +738,7 @@
 		};
 		110075B6216224BB00A10A44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EAE1ED5FDE4B9BA4BC85723 /* Pods-FabelizerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

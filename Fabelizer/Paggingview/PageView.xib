@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PageView" customModule="Fabelizer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="276" height="221"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y5i-hc-ytD">
+                    <rect key="frame" x="2" y="2" width="272" height="217"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q0X-qY-Yir">
+                    <rect key="frame" x="0.0" y="0.0" width="276" height="221"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <accessibility key="accessibilityConfiguration">
+                <accessibilityTraits key="traits" button="YES"/>
+            </accessibility>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Y5i-hc-ytD" secondAttribute="bottom" constant="2" id="1L7-EO-lpv"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="q0X-qY-Yir" secondAttribute="bottom" id="7lB-T2-gXU"/>
+                <constraint firstItem="Y5i-hc-ytD" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="2" id="JS3-NW-vb2"/>
+                <constraint firstItem="q0X-qY-Yir" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="P2M-PC-iZk"/>
+                <constraint firstItem="q0X-qY-Yir" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="QLK-fT-9Hs"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="q0X-qY-Yir" secondAttribute="trailing" id="QP8-Tk-qpO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Y5i-hc-ytD" secondAttribute="trailing" constant="2" id="Ur0-q3-Rxw"/>
+                <constraint firstItem="Y5i-hc-ytD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="2" id="oOG-WE-OLD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="PageViewImage" destination="Y5i-hc-ytD" id="etq-Ny-hfT"/>
+                <outlet property="Pessbtn" destination="q0X-qY-Yir" id="eWE-kY-nBb"/>
+            </connections>
+            <point key="canvasLocation" x="-120" y="366.02112676056339"/>
+        </view>
+    </objects>
+</document>
